@@ -17,10 +17,10 @@
 <template>
     <h3>Your current count is:</h3>
     <p> Single counter: {{ count }}</p>
-    <p> Souble counter: {{ doubleCount }}</p>
+    <p> Double counter: {{ doubleCount }}</p>
     <div>
-        <button @click="add">Add</button>
-        <button @click="remove">Remove</button>
+        <button @click="add">Count up</button>
+        <button @click="remove">Count down</button>
     </div>
 </template>
 
