@@ -1,7 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Counter from './components/Counter.vue';
+//import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
-  <HelloWorld />
+  <!--<HelloWorld />-->
+  <Counter />
 </template>
