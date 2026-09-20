@@ -4,11 +4,11 @@
     const count = ref(0);
     const doubleCount = computed(() => count.value * 2);
 
-    const add = () => {
+    function add() {
         count.value++;
     }
 
-    const remove = () => {
+    function remove() {
         count.value--;
     }
 
